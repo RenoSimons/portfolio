@@ -1,0 +1,282 @@
+/* #f7c643 */
+
+$primary-yellow: #f7c643;
+
+body {
+	background-color: #f7f5f5;
+	margin: 0 auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+
+h1 {
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 0;
+	color: $primary-yellow;
+}
+
+h2 {
+	margin: 0;
+	font-size: 15px ;
+	padding: 0px 10px 0px 10px;
+	opacity: 0.5;
+}
+
+p {
+	padding: 5px;
+}
+
+div {
+	border-radius: 25px;
+}
+
+@media screen and (max-width:414px) {
+	.wrapper {
+		width: 100%;
+	}
+
+	.column1 {
+		position: absolute;
+		visibility: hidden;
+	}
+	
+	.column2 {
+		width: 350px;
+	}
+
+	.logo {
+		visibility: hidden;
+	}
+
+	.my-services {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+
+	}
+	
+	.service-boxes {
+		display: flex;
+		
+	}
+}
+
+.logo {
+	width: 40px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+
+.scm-logo {
+	width: 20px;
+}
+
+.welcome-banner {
+	background-color: white;
+	height: 170px;
+	padding: 0px 30px 15px 30px;
+}
+
+.welcome-nav {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	width: 400px;
+	margin-left: 25%;
+	padding: 20px 0px 20px 0px;
+}
+
+.button {
+	background-color: $primary-yellow;
+	border: 1px solid lightgrey;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.message-div {
+	display: flex;
+	align-items: flex-end;
+}
+
+.placeholder {
+	visibility: hidden;
+}
+
+.about-me {
+	background-color: white;
+	padding: 0px 30px 15px 30px;
+}
+
+.my-knowledge {
+	background-color: white;
+	padding: 0px 30px 15px 30px;
+}
+
+.personal-info {
+	background-color: white;
+	padding: 0px 20px 0px 20px;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+.contact-me {
+	background-color: white;
+	padding: 0px 30px 15px 30px;
+}
+
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex;
+	margin-top: 50px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+body > div > div.column2 > div.nav-bar > ul > li:nth-child(4) {
+	margin-left: 460px;
+}
+
+.nav-bar li {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.nav-bar a {
+	text-decoration: none;
+}
+
+.active {
+	background-color: $primary-yellow;
+}
+.nav-bar a:hover {
+	color: $primary-yellow;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.column1 {
+	width: 600px;
+	padding: 20px;
+	margin-top: 45px;
+}
+
+.personal-info img {
+	border-radius: 50%;
+}
+
+.highlighted {
+	color: $primary-yellow;
+	font-weight: bold;
+}
+
+.boxes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box {
+	max-width: 185px;
+	text-align: center;
+}
+
+.box img {
+	width: 150px;
+	padding-top: 15px;
+	opacity: 0.85;
+}
+
+
+.box .star {
+	width: 30px;
+}
+
+.service-boxes {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.service-box {
+	max-width: 283px;
+	padding: 15px;
+}
+
+.my-services {
+	background-color: white;
+	padding: 0px 30px 15px 30px;
+}
+
+#checkbox {
+	width: 20px;
+}
+
+#webdev-img {
+	width: 200px;
+}
+
+#wireframes {
+	width: 200px;
+	padding: 20px 0px 15px 0px;
+}
+
+#brand-identity {
+	width: 200px;
+}
+
+.grey {
+	opacity: 0.8;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
